@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { useInviteCode } from '../../../../hooks/useInviteCode';
-import { auth } from '../../../../firebase';
+import { useInviteCode } from '../../../hooks/useInviteCode';
+import { auth } from '../../../firebase';
 import { Text, Input, Button, Image } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
-const art = require('../../../../assets/art_organization.jpg');
+const art = require('../../../assets/art_organization.jpg');
 
 const NoClient = () => {
     const [enteredInviteCode, setEnteredInviteCode] = useState('');

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { StyleSheet } from 'react-native';
 import ErrorMessage from './ErrorMessage';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../../../firebase';
+import { auth } from '../../../firebase';
 import { Image, Input, Button } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
-const logo = require('../../../../assets/logo.png');
+const logo = require('../../../assets/logo.png');
 
 const SignIn = ({ navigation }) => {
   const [email, setEmail] = useState('');

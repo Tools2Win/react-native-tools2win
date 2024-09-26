@@ -4,7 +4,7 @@ import { sendPasswordResetEmail } from 'firebase/auth';
 import { auth } from 'react-native-tools2win/src/firebase';
 import { Input, Button, Image, useTheme } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
-const art = require('../../../../assets/art_lock.jpg');
+const art = require('../../../assets/art_lock.jpg');
 
 const ForgotPassword = ({ navigation }) => {
     const { theme } = useTheme();

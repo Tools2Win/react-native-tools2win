@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, Image } from '@rneui/themed';
 import { View } from 'react-native';
-const art = require('../../../../assets/art_lock.jpg');
+const art = require('../../../assets/art_lock.jpg');
 
 const NoSubscription = () => {
     return (

@@ -4,7 +4,7 @@ import { sendEmailVerification } from 'firebase/auth';
 import { auth } from 'react-native-tools2win/src/firebase';
 import { Text, useTheme, Button, Image } from '@rneui/themed';
 import View from '../../../components/View';
-const art = require('../../../../assets/art_verificationlink.jpg');
+const art = require('../../../assets/art_verificationlink.jpg');
 
 const Acknowledgment = ({ navigation }) => {
     const { theme } = useTheme();

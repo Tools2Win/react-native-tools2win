@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { StyleSheet, FlatList } from 'react-native';
 import { SearchBar, Button, Image, Text } from '@rneui/themed';
-import { useSalesmanSelection } from '../../../../hooks/useSalesmanSelection';
+import { useSalesmanSelection } from '../../../hooks/useSalesmanSelection';
 import Salesman from './Salesman';
 import View from '../../../components/View';
-const art = require('../../../../assets/art_salesperson.jpg');
+const art = require('../../../assets/art_salesperson.jpg');
 
 const SalesmanSelection = () => {
     const { salesmen, loading, selectSalesman } = useSalesmanSelection();

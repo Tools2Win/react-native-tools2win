@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { useDisplayName } from '../../../../hooks/useDisplayName';
-import { auth } from '../../../../firebase';
+import { useDisplayName } from '../../../hooks/useDisplayName';
+import { auth } from '../../../firebase';
 import { Text, Input, Button, Image } from '@rneui/themed';
-import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
+import KeyboardAvoidingView from '../../components/KeyboardAvoidingView';
 const art = require('../../../../assets/art_displayname.jpg');
 
 const NoDisplayName = () => {

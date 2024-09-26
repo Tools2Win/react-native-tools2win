@@ -3,10 +3,10 @@ import {
     Alert
 } from 'react-native';
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
-import { auth } from '../../../../firebase';
+import { auth } from '../../../firebase';
 import { Button, Input, Image } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
-const image = require('../../../../assets/art_signup.jpg');
+const image = require('../../../assets/art_signup.jpg');
 
 const SignUpScreen = () => {
     const [email, setEmail] = useState('');

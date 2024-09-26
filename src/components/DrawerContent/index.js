@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Linking } from 'react-native';
 import { DrawerContentScrollView } from '@react-navigation/drawer';
-import useAuthContext from '../../../hooks/useAuthContext';
+import useAuthContext from '../../hooks/useAuthContext';
 import { useTheme, Button, Icon, Text } from '@rneui/themed';
 
 const DrawerContent = ({ props, children, version }) => {
