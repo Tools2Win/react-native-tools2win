@@ -34,8 +34,6 @@ const execute = async (httpMethod, resource, data, params) => {
         options.headers['Content-Type'] = 'application/json';
     }
 
-    console.log(token)
-
     const response = await fetch(url, options);
     const responseText = await response.text();
 
