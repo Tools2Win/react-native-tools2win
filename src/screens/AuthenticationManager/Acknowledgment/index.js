@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { Alert } from 'react-native';
 import { sendEmailVerification } from 'firebase/auth';
-import { auth } from 'tools2win-core/src/firebase';
+import { auth } from 'react-native-tools2win/src/firebase';
 import { Text, useTheme, Button, Image } from '@rneui/themed';
 import View from '../../../components/View';
 const art = require('../../../../assets/art_verificationlink.jpg');

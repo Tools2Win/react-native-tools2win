@@ -1,6 +1,6 @@
 import React from "react";
 import { CubeProvider as CubeJSProvider } from '@cubejs-client/react';
-import cube from 'tools2win-core/src/cube';
+import cube from 'react-native-tools2win/src/cube';
 
 const CubeProvider = ({ children }) => {
     return (

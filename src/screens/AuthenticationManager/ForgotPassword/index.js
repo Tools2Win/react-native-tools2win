@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Alert } from 'react-native';
 import { sendPasswordResetEmail } from 'firebase/auth';
-import { auth } from 'tools2win-core/src/firebase';
+import { auth } from 'react-native-tools2win/src/firebase';
 import { Input, Button, Image, useTheme } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
 const art = require('../../../../assets/art_lock.jpg');

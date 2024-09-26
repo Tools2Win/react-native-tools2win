@@ -1,16 +1,16 @@
 
 import { createStackNavigator } from '@react-navigation/stack';
-import useAuth from 'tools2win-core/src/hooks/useAuth';
+import useAuth from 'react-native-tools2win/src/hooks/useAuth';
 import { NavigationContainer } from '@react-navigation/native';
-import Acknowledgment from 'tools2win-core/src/react-native/screens/AuthenticationManager/Acknowledgment';
-import NoDisplayName from 'tools2win-core/src/react-native/screens/AuthenticationManager/NoDisplayName';
-import NoClient from 'tools2win-core/src/react-native/screens/AuthenticationManager/NoClient';
-import SalesmanSelection from 'tools2win-core/src/react-native/screens/AuthenticationManager/SalesmanSelection';
-import SignIn from 'tools2win-core/src/react-native/screens/AuthenticationManager/SignIn';
-import ForgotPassword from 'tools2win-core/src/react-native/screens/AuthenticationManager/ForgotPassword';
-import SignUp from 'tools2win-core/src/react-native/screens/AuthenticationManager/SignUp';
-import AuthContext from 'tools2win-core/src/contexts/AuthContext';
-import colors from 'tools2win-core/src/themes/colors';
+import Acknowledgment from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/Acknowledgment';
+import NoDisplayName from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/NoDisplayName';
+import NoClient from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/NoClient';
+import SalesmanSelection from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/SalesmanSelection';
+import SignIn from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/SignIn';
+import ForgotPassword from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/ForgotPassword';
+import SignUp from 'react-native-tools2win/src/react-native/screens/AuthenticationManager/SignUp';
+import AuthContext from 'react-native-tools2win/src/contexts/AuthContext';
+import colors from 'react-native-tools2win/src/themes/colors';
 import { ThemeProvider, createTheme } from '@rneui/themed';
 
 const theme = createTheme({
