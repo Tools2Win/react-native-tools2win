@@ -2,7 +2,7 @@
 import colors from 'react-native-tools2win/src/themes/colors';
 import { ThemeProvider, createTheme } from '@rneui/themed';
 import { useSubscriptions } from 'react-native-tools2win/src/hooks/useSubscriptions';
-import NoSubscription from 'react-native-tools2win/src/react-native/screens/SubscriptionManager/NoSubscription';
+import NoSubscription from 'react-native-tools2win/src/screens/SubscriptionManager/NoSubscription';
 
 const theme = createTheme({
     lightColors: {
