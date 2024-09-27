@@ -3,7 +3,7 @@ import { useDisplayName } from '../../../hooks/useDisplayName';
 import { auth } from '../../../firebase';
 import { Text, Input, Button, Image } from '@rneui/themed';
 import KeyboardAvoidingView from '../../../components/KeyboardAvoidingView';
-const art = require('../../../assets/art_displayname.jpg');
+const art = require('../../../assets/art_displayname.jpg'); 
 
 const NoDisplayName = () => {
     const [firstName, setFirstName] = useState('');
